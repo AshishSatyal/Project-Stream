@@ -29,8 +29,10 @@ body{
     list-style: none;
     display: flex;
     gap: 3.2rem;
+    align-items: center;
 }
 .main-nav-link:link, .main-nav-link:visited{
+   display: inline-block;
    text-decoration: none;
    color: #333;
    font-weight: 600;
@@ -39,6 +41,18 @@ body{
 }
 .main-nav-link:hover, .main-nav-link:active{
     color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link, .main-nav-link.nav-cta:visited{
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #e67e22;
+    transition: all 0.3s;
+ 
+}
+.main-nav-link.nav-cta:hover, .main-nav-link.nav-cta:active{
+    background-color: #cf711f;
 }
 .section-hero{
     background-color: #fdf2e9;
