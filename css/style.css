@@ -120,22 +120,37 @@ body{
     margin-right: 1.6rem !important;
 }
 
-.container{
-    max-width: 120rem;
-    padding: 0 3.2rem;
-    margin: 0 auto;
-}
-.grid{
-    display: grid;
-    gap: 9.6rem;
 
+
+
+.subheading{
+    text-align: center;
+    margin: 5rem auto 12rem;
 }
-.grid--2-cols{
-    grid-template-columns: repeat(2, 1fr);
+
+.main{
+    width: 100%;
+    min-height: 38rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
 }
-.section-how{
-    padding: 9.6rem 0;
+
+.service{
+  background-color: #e67e22;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 0;
 }
-.step-img{
-    width: 50%;
+
+.service-logo{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+}
+
+.service-logo img{
+    width: 5rem;
+    margin-top: 5rem;
 }
